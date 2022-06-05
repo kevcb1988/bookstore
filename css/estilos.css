@@ -1,0 +1,60 @@
+.libro{
+    margin-bottom: 1em;
+}
+
+.libro img{
+    padding: 1em 1em 0 1em;
+}
+
+.libro .libro-titulo{
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-bottom: 4px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.libro .libro-autor{
+    font-size: 0.7em;
+    font-weight: 300;
+}
+
+.libro .libro-precio{
+    font-size: 0.85em;
+    font-weight: 600;
+}
+
+.libro button{
+    margin-top: 10px;
+}
+
+thead tr th{
+    font-size: 0.85em;
+    text-align: center;
+}
+
+tbody tr td{
+    font-size: 0.8em;
+    line-height: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+tbody tr img{
+    width: 50px;
+}
+
+td.portada{
+    width: 50px;
+}
+
+td.titulo, td.precio, td.cantidad{
+    padding: 20px 10px;
+
+}
+
+td a img.eliminar-libro{
+    padding-top: 25px;
+    width: 24px;
+}
