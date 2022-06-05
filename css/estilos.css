@@ -54,7 +54,8 @@ td.titulo, td.precio, td.cantidad{
 
 }
 
-td a img.eliminar-libro{
+td a{
+    content: url("../img/trash-black.svg");
     padding-top: 25px;
     width: 24px;
 }
